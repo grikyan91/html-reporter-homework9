@@ -70,5 +70,5 @@ jobs:
             
             Repository: ${{ github.repository }}
             
-            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+            See changes: https://grikyan91.github.io/html-reporter-homework9
       
