@@ -14,8 +14,8 @@ module.exports = {
   },
   reporters: [
     'default',
-    ['html-reporters', {
-      filename: 'homework9-report.html',
+    ['jest-html-reporters', {
+      filename: 'report.html',
       openReport: true,
     }],
   ],
