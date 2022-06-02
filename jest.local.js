@@ -12,5 +12,12 @@ module.exports = {
   globals: {
     testTimeout: 50000,
   },
+  reporters: [
+    'default',
+    ['html-reporters', {
+      filename: 'homework9-report.html',
+      openReport: true,
+    }],
+  ],
   verbose: true,
 };
