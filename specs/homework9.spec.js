@@ -2,7 +2,7 @@ import { Check, BuildMail } from '../framework';
 
 const { faker } = require('@faker-js/faker');
 
-const api_key = '647ff7d6a07d83c8d33e9d267a6d1f1a';
+const api_key = 'eac96496ef5af738abeec20b55429312';
 
 describe('Валидируем email в mailboxlayer.com', () => {
     
